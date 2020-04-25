@@ -1,0 +1,249 @@
+@media only screen and (min-width:992px) and (max-width:1199px) {
+	
+	/*------- Custom Slider CSS Starts -------*/
+
+.carousel-caption-one > p:first-child { border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; font-size: 2rem; padding: 10px; }
+.carousel-caption-one > p:nth-child(2) { border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; font-size: 2.4rem; margin: 0 auto 15px; padding: 10px; }
+.carousel-indicators { bottom: 5px; }
+
+	/*------- Custom Slider CSS Ends -------*/
+
+	/*------- Common CSS Starts -------*/
+
+.bg-services, .bg-gallery, .bg-contact { padding: 30px 15px; }
+.section-heading > h2 { font-size: 2.7rem; margin-bottom: 30px; }
+
+	/*------- Common CSS Ends -------*/
+
+	/*------- AboutUs Section Starts -------*/
+
+.bg-about { padding: 30px 15px 0; }
+.what-wedo > h3, .opening > h3, .what-wedo > p:nth-child(2) { font-size: 2.4rem; }
+.what-wedo > p:nth-child(3) { font-size: 1.6rem; }
+.what-wedo > p:nth-child(4) { text-align: justify; }
+.what-wedo > h3 { padding-bottom: 10px; margin-bottom: 10px; }
+
+	/*------- AboutUs Section Ends -------*/
+
+	/*------- Services Section Starts -------*/
+
+.panel-services > h3 { font-size: 2.2rem; }
+
+	/*------- Services Section Ends -------*/
+
+	/*------- Gallery Section Starts -------*/
+
+.bg-gallery { padding: 30px 15px 0; }
+
+	/*------- Gallery Section Ends -------*/
+
+	/*------- Counter Section Starts -------*/
+
+.counter > span, .counter-name > span, .footer-heading > h4 { font-size: 2.2rem; }
+
+	/*------- Counter Section Ends -------*/
+
+	/*------- ContactUs Section Starts -------*/
+
+.contact-heading > h2 { margin-bottom: 50px; }
+
+	/*------- ContactUs Section Ends -------*/
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+	/*------- Common CSS Starts -------*/
+
+.section-heading > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.bg-about, .bg-services, .bg-gallery, .bg-counter, .bg-contact, .bg-footer { padding: 30px 15px; }
+.mobile-block { display: block; }
+.tablet-block { display: flex; }
+
+	/*------- Common CSS Ends -------*/
+
+	/*------- Navigationbar Menu Starts -------*/
+
+.menu-listing > li > a { padding: 14px; }
+
+	/*------- Navigationbar Menu Ends -------*/
+
+	/*------- Menubar Section Starts -------*/
+
+.bg-menubar { padding: 15px; }
+
+	/*------- Menubar Section Ends -------*/
+
+	/*------- Logo and Mobile Info Section Starts -------*/
+
+.img-auto-mobile { margin: 0 auto; }
+.img-header-logo { padding: 15px 0; }
+.bg-callus { border-radius: 60px 60px 0 0; -webkit-border-radius: 60px 60px 0 0; -moz-border-radius: 60px 60px 0 0; -ms-border-radius: 60px 60px 0 0; -o-border-radius: 60px 60px 0 0; }
+
+	/*------- Logo and Mobile Info Section Ends -------*/
+	
+	/*------- Custom Slider CSS Starts -------*/
+
+.carousel-caption-one > p:first-child { border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; font-size: 2rem; padding: 10px; }
+.carousel-caption-one > p:nth-child(2) { border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; font-size: 2.4rem; margin: 0 auto 15px; padding: 10px; }
+.carousel-indicators { bottom: 5px; }
+
+	/*------- Custom Slider CSS Ends -------*/
+
+	/*------- AboutUs Section Starts -------*/
+
+.what-wedo > h3, .opening > h3, .what-wedo > p:nth-child(2) { font-size: 2.2rem; }
+.what-wedo > h3 { padding-bottom: 10px; margin-bottom: 10px; }
+.img-aboutus { margin-bottom: 15px; }
+
+	/*------- AboutUs Section Ends -------*/
+
+	/*------- Services Section Starts -------*/
+
+.bg-about, .bg-services, .bg-gallery { padding: 30px 15px 0; }
+.img-services { width: 30%; }
+.panel-services { margin-bottom: 30px; }
+.panel-services > h3 { font-size: 2rem; }
+
+	/*------- Services Section Ends -------*/
+
+	/*------- ContactUs Section Starts -------*/
+
+.contact-heading > h2 { margin-bottom: 50px; }
+
+	/*------- ContactUs Section Ends -------*/
+
+	/*------- Counter Section Starts -------*/
+
+.smiley > i { font-size: 3rem; }
+.counter > span { font-family: "TitilliumWeb-Semibold"; }
+.counter { margin-bottom: 10px; }
+.counter > span, .counter-name > span { font-size: 2rem; }
+
+	/*------- Counter Section Ends -------*/
+
+	/*------- Footer Section Ends -------*/
+
+.bg-footer { background-position: 70% 100%; }
+.medical-desc { margin-bottom: 15px; text-align: justify; }
+.footer-heading { min-height: auto; }
+.footer-heading > h4 { font-size: 2rem; }
+
+	/*------- Footer Section Ends -------*/
+
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+
+	/*------- Services Section Starts -------*/
+
+.img-services { width: 10%; }
+
+	/*------- Services Section Ends -------*/
+
+}
+
+@media only screen and (max-width:767px) {
+
+	/*------- Common CSS Starts -------*/
+
+.mobile-block { display: block; }
+.bg-about, .bg-services, .bg-gallery, .bg-counter, .bg-contact, .bg-footer { padding: 15px; }
+.section-heading > h2:before, .section-heading > h2:after { content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0' }
+.section-heading > h2 { font-size: 2.4rem; margin-bottom: 15px; }
+
+	/*------- Common CSS Starts -------*/
+
+	/*------- Menubar Section Starts -------*/
+
+.social-icons, .overflow-gallery { margin-bottom: 15px; }
+.bg-menubar, .bg-logo { padding: 15px; }
+.social-icons, .help-emergency { text-align: center; }
+.help-emergency > li { padding: 0; }
+.help-emergency > li, .help-emergency > li > a, .time-table > tbody > tr > td, .panel-services > p, .footer-services > li > a, .contact-body > p, .contact-body > p > a, .copyright, .design { font-size: 1.4rem; }
+
+	/*------- Menubar Section Ends -------*/
+
+	/*------- Logo and Mobile Info Section Starts -------*/
+
+.img-header-logo { padding: 0; }
+.img-auto-mobile { margin: 0 auto 15px; }
+.bg-callus { border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; justify-content: center; }
+
+	/*------- Logo and Mobile Info Section Ends -------*/
+	
+	/*------- Hamburger Menu CSS Starts -------*/
+
+.hamburger-menu { display: block; margin-right: 15px; }
+
+	/*------- Hamburger Menu CSS Ends -------*/
+
+	/*------- Navigationbar Menu Starts -------*/
+
+.navbar-menu { background-color: #0cb8b6; position: absolute; left: 0; top: 50px; transform: translateX(-100%); -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -ms-transform: translateX(-100%); -o-transform: translateX(-100%); transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; width: 100%; z-index: 9999; }
+.navbar-menu.active { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
+.menu-listing > li { display: block; }
+.navbar-container { padding: 0 0 0 15px; }
+.menu-listing > li > a { padding: 15px; }
+
+	/*------- Navigationbar Menu Ends -------*/
+
+	/*------- Custom Slider CSS Starts -------*/
+
+.carousel-caption-one > p:first-child,
+.carousel-caption-one > p:nth-child(3) { display: none; }
+.carousel-caption-one > p:nth-child(2) { border-radius: 7px; font-size: 1.4rem; letter-spacing: 0.7px; margin: 0 auto; padding: 7px 14px; }
+.carousel-indicators { bottom: 5px; }
+
+	/*------- Custom Slider CSS Ends -------*/
+
+	/*------- AboutUs Section Starts -------*/
+
+.what-wedo > h3, .opening > h3 { margin-bottom: 10px; padding-bottom: 10px; }
+.what-wedo > p:nth-child(3), .time-table > thead > tr > th, .time-table > tfoot > tr > td { font-size: 1.6rem; }
+.what-wedo > p:nth-child(4), .medical-desc { font-size: 1.4rem; margin-bottom: 15px; text-align: justify; }
+.img-aboutus, .overflow-gallery, .panel-services, .counter-name, .footer-services > li:last-child { margin-bottom: 15px; }
+
+	/*------- AboutUs Section Ends -------*/
+
+	/*------- Services Section Starts -------*/
+
+.img-services { width: 30%; }
+.panel-services { background-color: #000; }
+.what-wedo > h3, .opening > h3, .what-wedo > p:nth-child(2), .panel-services > h3 { font-size: 2rem; }
+
+	/*------- Services Section Ends -------*/
+
+	/*------- Gallery Section Starts -------*/
+
+.bg-about, .bg-services, .bg-gallery { padding: 15px 15px 0; }
+
+	/*------- Gallery Section Ends -------*/
+
+	/*------- Counter Section Starts -------*/
+
+.bg-counter { background-position: 50% 50%; padding: 15px 15px 0; }
+.counter { margin-bottom: 10px; }
+.smiley > i { font-size: 2.4rem; }
+.counter > span, .counter-name > span { font-size: 1.6rem; }
+.counter > span { font-family: "TitilliumWeb-Semibold"; font-size: 1.8rem; }
+
+	/*------- Counter Section Ends -------*/
+
+	/*------- ContactUs Section Starts -------*/
+
+.contact-heading > h2 { margin-bottom: 45px; }
+
+	/*------- ContactUs Section Ends -------*/
+
+	/*------- Footer Section Starts -------*/
+
+.bg-footer { background-position: 65% 100%; }
+.img-auto-mob { margin: 0 auto; }
+.footer-heading { min-height: auto; }
+.footer-heading > h4 { font-size: 1.8rem; }
+.footer-services > li > a > i { padding-right: 5px; }
+
+	/*------- Footer Section Ends -------*/
+
+}

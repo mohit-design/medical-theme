@@ -1,0 +1,276 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "TitilliumWeb-Light"; src: url("../fonts/TitilliumWeb-Light.ttf"); }
+@font-face { font-family: "TitilliumWeb-Regular"; src: url("../fonts/TitilliumWeb-Regular.ttf"); }
+@font-face { font-family: "TitilliumWeb-SemiBold"; src: url("../fonts/TitilliumWeb-SemiBold.ttf"); }
+@font-face { font-family: "PT Sans Regular"; src: url("../fonts/PT Sans Regular.ttf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+html { font-size: 10px; letter-spacing: 0.7px; }
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p, 
+ul, 
+ol { margin: 0; padding: 0; }
+li { list-style: none; }
+a,
+a:hover,
+a:focus { text-decoration: none; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Common CSS Starts -------*/
+
+p { color: #000; font-family: "TitilliumWeb-Regular"; font-size: 1.6rem; letter-spacing: 1px; }
+.flex { display: flex; }
+.align-center { align-items: center; }
+.justify-center { justify-content: center; }
+.flex-0 { flex: 0; }
+.flex-1 { flex: 1; }
+.flex-2 { flex: 2; }
+.flex-4 { flex: 4; }
+.img-auto { margin: 0 auto; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.full-width { width: 100%; }
+.section-heading > h2 { color: #000; font-family: "TitilliumWeb-SemiBold"; font-size: 3rem; letter-spacing: 1px; margin-bottom: 50px; }
+.pr-10 { padding-right: 10px; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Menubar Section Starts -------*/
+
+.bg-menubar { background-color: #0cb8b6; padding: 10px 15px; }
+.social-icons > li { display: inline-block; margin-right: 5px; }
+.social-icons > li:last-child { margin-right: 0; }
+.social-icons > li > a { align-items: center; background-color: #0b9c9b91; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; color: #fff; display: flex; height: 35px; justify-content: center; width: 35px; }
+.social-icons > li > a:hover { background-color: #000; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; }
+.social-icons > li > a > i { font-size: 1.4rem; }
+.help-emergency > li { color: #fff; display: inline-block; font-size: 1.6rem; padding: 0 5px; }
+.help-emergency > li > a { color: #fff; font-family: "TitilliumWeb-Light"; font-size: 1.6rem; letter-spacing: 1px; }
+.help-emergency > li > a:hover { color: #000; }
+
+/*------- Menubar Section Ends -------*/
+
+/*------- Logo and Mobile Info Section Starts -------*/
+
+.bg-logo { padding: 0 15px; }
+.remove-teleinfo-pads { padding: 0; }
+.mobile-icon { color: #fff; font-size: 3.6rem; }
+.mobile-clock-icons { border-right: 1px solid #f2f2f2; padding-right: 10px; }
+.telephone-call { padding-left: 10px; }
+.bg-callus { background-color: #0cb8b6; border-radius: 60px 60px 0 0; -webkit-border-radius: 60px 60px 0 0; -moz-border-radius: 60px 60px 0 0; -ms-border-radius: 60px 60px 0 0; -o-border-radius: 60px 60px 0 0; padding: 10px; }
+.img-header-logo { padding: 7px 0; }
+.telephone-call > p { color: #fff; }
+.telephone-call > p > a,
+.open-time > p:last-child { color: #fff; font-family: "TitilliumWeb-Light"; font-size: 1.4rem; letter-spacing: 1.7px; }
+.open-time > p:last-child { letter-spacing: 1.4px; }
+
+/*------- Logo and Mobile Info Section Ends -------*/
+
+/*------- Navigationbar Menu Starts -------*/
+
+.bg-navbar { background-color: #0cb8b6; }
+.bg-navbar.fixed { position: fixed; top: 0; width: 100%; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; z-index: 9999; }
+.menu-listing > li { display: inline-block; }
+.menu-listing > li > a { box-shadow: inset 0 0 0 0 #0e9896; -webkit-box-shadow: inset 0 0 0 0 #0e9896; -moz-box-shadow: inset 0 0 0 0 #0e9896; -ms-box-shadow: inset 0 0 0 0 #0e9896; -o-box-shadow: inset 0 0 0 0 #0e9896; color: #fff; display: block; font-family: "TitilliumWeb-Regular"; font-size: 1.6rem; letter-spacing: 1px; padding: 15px; }
+.menu-listing > li > a:hover,
+.menu-listing > li.active > a { box-shadow: inset 0 -52px 0 0 #0e9896; -webkit-box-shadow: inset 0 -52px 0 0 #0e9896; -moz-box-shadow: inset 0 -52px 0 0 #0e9896; -ms-box-shadow: inset 0 -52px 0 0 #0e9896; -o-box-shadow: inset 0 -52px 0 0 #0e9896; }
+
+	/*------- Hamburger Menu CSS Starts -------*/
+
+.hamburger-menu { background-color: #0ba8a7; cursor: pointer; display: none; height: 50px; width: 50px; position: relative; }
+.hamburger-menu span { position: absolute; height: 2px; width: 25px; background-color: #fff; top: 50%; left: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+.hamburger-menu span:before,
+.hamburger-menu span:after { content: ""; background-color: #fff; height: 2px; width: 25px; position: absolute; top: 7px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+.hamburger-menu span:before { top: -7px; }
+
+	/*------- Hamburger Menu CSS Ends -------*/
+
+.form-search { border: 2px solid #000; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; font-family: "TitilliumWeb-Regular"; letter-spacing: 1px; }
+.form-search:focus { background-color: #000; border-color: #000; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; color: #fff; }
+.btn-search { border: 2px solid #000; border-left: 1px solid #000; font-size: 1.3rem; }
+.btn-search:hover,
+.btn-search:active:hover,
+.btn-search:focus, 
+.btn-search:active:focus { background-color: #fff; border-color: #000; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; }
+.btn-search:focus { outline: 0; }
+.form-search::placeholder { color: #000; opacity: 1; }
+.form-search:-ms-input-placeholder { color: #000; }
+.form-search::-ms-input-placeholder { color: #000; }
+
+/*------- Navigationbar Menu Ends -------*/
+
+/*------- Slider Starts -------*/
+
+.carousel-fade .carousel-inner .item { opacity: 0; transition-property: opacity; }
+.carousel-fade .carousel-inner .active { opacity: 1; }
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right { left: 0; opacity: 0; z-index: 1; }
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right { opacity: 1; }
+.carousel-fade .carousel-control { z-index: 2; }
+.carousel-caption > h3 { color: #fff; font-family: "TitilliumWeb-SemiBold"; font-size: 3rem; text-transform: uppercase; }
+.carousel-caption > p { color: #fff; font-family: "TitilliumWeb-Light"; font-size: 1.6rem; margin-bottom: 7px; }
+
+/* WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."now override the 3.3 new styles for modern browsers & apply opacity */
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+	.carousel-fade .carousel-inner > .item.next,
+	.carousel-fade .carousel-inner > .item.active.right {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+	.carousel-fade .carousel-inner > .item.prev,
+	.carousel-fade .carousel-inner > .item.active.left {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+	.carousel-fade .carousel-inner > .item.next.left,
+	.carousel-fade .carousel-inner > .item.prev.right,
+	.carousel-fade .carousel-inner > .item.active {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+	/*------- Custom Slider CSS Starts -------*/
+
+.bg-slider { background-color: #eee; }
+.img-slider { width: 100%; }
+.carousel-caption-one { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+.carousel-caption-one > p:first-child { background-color: #586568; border-radius: 24px; -webkit-border-radius: 24px; -moz-border-radius: 24px; -ms-border-radius: 24px; -o-border-radius: 24px; color: #fff; font-family: "TitilliumWeb-Regular"; font-size: 2rem; letter-spacing: 1px; margin: 0 auto 15px; padding: 10px; width: 50%; }
+.carousel-caption-one > p:nth-child(2) { background-color: #0cb8b6; border-radius: 40px 12px 40px 12px; -webkit-border-radius: 40px 12px 40px 12px; -moz-border-radius: 40px 12px 40px 12px; -ms-border-radius: 40px 12px 40px 12px; -o-border-radius: 40px 12px 40px 12px; color: #fff; font-family: "TitilliumWeb-SemiBold"; font-size: 3rem; letter-spacing: 1px; margin: 0 auto 15px; padding: 10px; }
+.carousel-caption-one > p:nth-child(3) { color: #000; font-family: "TitilliumWeb-SemiBold"; font-size: 2rem; letter-spacing: 1px; }
+.carousel-indicators { bottom: 20px; }
+.carousel-indicators li { background-color: #000; border: 1px solid #fff; }
+.carousel-indicators .active { background-color: #0cb8b6; border: 1px solid #fff; }
+.carousel-control.right, .carousel-control.left { background-image: none; }
+
+	/*------- Custom Slider CSS Ends -------*/
+
+/*------- Slider Ends -------*/
+
+/*------- AboutUs Section Starts -------*/
+
+.bg-about { background-color: #eee; padding: 50px 15px 0; }
+.section-heading > h2:before,
+.section-heading > h2:after { content:'\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0'; text-decoration: line-through; margin: auto 0.5em; }
+.what-wedo > h3,
+.opening > h3 { color: #808080; font-family: "TitilliumWeb-SemiBold"; font-size: 3rem; letter-spacing: 1px; padding-bottom: 15px; margin-bottom: 15px; }
+.what-wedo > h3:after,
+.opening > h3:after { background-color: #808080; content: ""; height: 2px; position: absolute; left: 0; width: 160px; bottom: 0px; }
+.what-wedo > p:nth-child(2) { color: #0cb8b6; font-family: "TitilliumWeb-SemiBold"; font-size: 3rem; line-height: 1; margin-bottom: 15px; }
+.what-wedo > p:nth-child(3) { background-color: #0cb8b6; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; color: #fff; font-family: "TitilliumWeb-Regular"; font-size: 1.8rem; margin-bottom: 15px; padding: 15px; }
+.opening > h3 { color: #0cb8b6; }
+.opening > h3:after { background-color: #0cb8b6; }
+.time-table > thead > tr > th,
+.time-table > tfoot > tr > td { background-color: #0daba9; color: #fff; font-family: "TitilliumWeb-SemiBold"; font-size: 2rem; letter-spacing: 1px; }
+.time-table > tbody > tr > td { background-color: #0cb8b6; color: #fff; font-family: "TitilliumWeb-Regular"; font-size: 1.6rem; letter-spacing: 1px; }
+.time-table > tfoot > tr > td > a { color: #fff; font-family: "TitilliumWeb-Regular"; font-size: 1.8rem; letter-spacing: 1.7px; }
+
+/*------- AboutUs Section Ends -------*/
+
+/*------- Services Section Starts -------*/
+
+.bg-services { background: url("../images/services.jpg") no-repeat fixed 25% 100%/cover; padding: 50px 15px; }
+.section-services > h2 { color: #fff; }
+.panel-services { background: #ffffff2e; border-bottom: 4px solid #0ddcda; border-radius: 29px / 147px; -webkit-border-radius: 29px / 147px; -moz-border-radius: 29px / 147px; -ms-border-radius: 29px / 147px; -o-border-radius: 29px / 147px; box-shadow: inset 0 0 0 0 #0ddcda; -webkit-box-shadow: inset 0 0 0 0 #0ddcda; -moz-box-shadow: inset 0 0 0 0 #0ddcda; -ms-box-shadow: inset 0 0 0 0 #0ddcda; -o-box-shadow: inset 0 0 0 0 #0ddcda; padding: 30px; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+.panel-services:hover { box-shadow: inset 0 10px 0 0 #0ddcda; -webkit-box-shadow: inset 0 10px 0 0 #0ddcda; -moz-box-shadow: inset 0 10px 0 0 #0ddcda; -ms-box-shadow: inset 0 10px 0 0 #0ddcda; -o-box-shadow: inset 0 10px 0 0 #0ddcda; }
+.img-services { margin-bottom: 15px; width: 40%; }
+.panel-services > h3 { color: #0ddcda; font-family: "TitilliumWeb-SemiBold"; font-size: 2.4rem; text-align: center; margin-bottom: 15px; }
+.panel-services > p { color: #fff; text-align: center; }
+
+/*------- Services Section Ends -------*/
+
+/*------- Gallery Section Starts -------*/
+
+.bg-gallery { background-color: #eee; padding: 50px 15px 20px; }
+.overflow-gallery { border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; margin-bottom: 30px; overflow: hidden; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+.img-gallery { border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; cursor: pointer; filter: grayscale(0) brightness(75%); transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; width: 100%; }
+.overflow-gallery:hover .img-gallery { border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; filter: grayscale(100%); transform: scale(1.2); -webkit-transform: scale(1.2); -moz-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2); }
+
+/*------- Gallery Section Ends -------*/
+
+/*------- Counter Section Starts -------*/
+
+.bg-counter { background: url("../images/counter.jpg") no-repeat 100% 50%/cover; padding: 50px 15px; }
+.smiley, .counter { margin-bottom: 15px; }
+.smiley > i { color: #0cb8b6; font-size: 3.4rem; }
+.counter > span, .counter-name > span { color: #fff; font-family: "TitilliumWeb-Regular"; font-size: 2.4rem; letter-spacing: 1px; }
+
+/*------- Counter Section Ends -------*/
+
+/*------- ContactUs Section Starts -------*/
+
+.bg-contact { padding: 50px 15px; }
+
+	/* Form Starts */
+
+.form-element { position:relative;margin-bottom:40px; }
+.fields { color: #000; font-family: "PT Sans Regular"; font-size: 1.5rem; left:10px; pointer-events:none; position:absolute; top:10px; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; }
+.form-control-element { border: 2px solid #000; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; color: #272727; font-family: "PT Sans Regular"; font-size: 1.5rem; height: 40px; letter-spacing: 0.6px; }
+.form-control-element:focus { box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; border-color:#000; outline: 0; }
+.form-control-element:focus ~.fields,.form-control-element:valid ~ .fields { color: #272727; font-family: "PT Sans Regular"; font-size: 1.6rem; letter-spacing: 1px; left:0; top:-30px; }
+
+  /* Form Ends */
+
+.form-element-addon { background-color: #0cb8b6; border: 2px solid #000; color: #fff; cursor: pointer; }
+select.form-control-element, select.form-control-element option { font-family: "TitilliumWeb-Regular"; font-weight: 600; }
+.btn-send { background-color: #000; box-shadow: inset 0 46px 0 0 #0cb8b6; -webkit-box-shadow: inset 0 46px 0 0 #0cb8b6; -moz-box-shadow: inset 0 46px 0 0 #0cb8b6; -ms-box-shadow: inset 0 46px 0 0 #0cb8b6; -o-box-shadow: inset 0 46px 0 0 #0cb8b6; border: 0; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; color: #fff; font-family: "TitilliumWeb-Regular"; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; letter-spacing: 1px; width: 100%; }
+.btn-send:hover,
+.btn-send:active:hover { box-shadow: inset 0 0 0 0 #0cb8b6; -webkit-box-shadow: inset 0 0 0 0 #0cb8b6; -moz-box-shadow: inset 0 0 0 0 #0cb8b6; -ms-box-shadow: inset 0 0 0 0 #0cb8b6; -o-box-shadow: inset 0 0 0 0 #0cb8b6; color: #fff; }
+.btn-send:focus,
+.btn-send:active:focus { box-shadow: inset 0 46px 0 0 #0cb8b6; -webkit-box-shadow: inset 0 46px 0 0 #0cb8b6; -moz-box-shadow: inset 0 46px 0 0 #0cb8b6; -ms-box-shadow: inset 0 46px 0 0 #0cb8b6; -o-box-shadow: inset 0 46px 0 0 #0cb8b6; color: #fff; outline: 0; }
+
+/*------- ContactUs Section Ends -------*/
+
+/*------- Footer Section Starts -------*/
+
+.bg-footer { background: url("../images/footer.jpg") no-repeat fixed top/cover; padding: 50px 15px; }
+.footer-logo, 
+.footer-heading { margin-bottom: 15px; }
+.footer-heading { min-height: 45px; }
+.footer-heading > h4 { color: #fff; font-family: "TitilliumWeb-SemiBold"; font-size: 2.4rem; letter-spacing: 1px; }
+.footer-services > li { margin-bottom: 10px; }
+.footer-services > li:last-child { margin-bottom: 0; }
+.footer-services > li > a { color: #fff; font-family: "TitilliumWeb-Regular"; font-size: 1.6rem; letter-spacing: 1px; }
+.footer-services > li > a:hover { color: #0cb8b6; letter-spacing: 1.5px; }
+.footer-services > li > a > i { padding-right: 10px; }
+.contact-body > h4 { color: #0ddcda; font-family: "TitilliumWeb-SemiBold"; letter-spacing: 1px; }
+.medical-desc, 
+.contact-media, 
+.contact-body > p, 
+.contact-body > p > a { color: #fff; font-family: "TitilliumWeb-Light"; letter-spacing: 1px; }
+.contact-body > p > a:hover { color: #0cb8b6; }
+
+/*------- Footer Section Ends -------*/
+
+/*------- Design Detail Starts -------*/
+
+.design-bg { background-color: #0cb8b6; padding: 15px; }
+.copyright,
+.design { color: #fff; margin-bottom: 5px; }
+.design { margin-bottom: 0; }
+.designer-name { color: #000; font-family: "TitilliumWeb-Regular"; }
+.designer-name:hover { color: #fff; }
+
+/*------- Design Detail Ends -------*/
+
+/*------- Scroll To Top Section Starts -------*/
+
+.scroll-to-top { background-color: #009a98; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; bottom: 20px; opacity: 0; height: 40px; position: fixed; right: 20px; width: 40px; }
+.scroll-to-top.visible { opacity: 1; }
+.scroll-to-top i { color: #fff; font-size: 1.6rem; }
+
+/*------- Scroll To Top Section Ends -------*/
