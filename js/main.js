@@ -99,7 +99,7 @@ $(document).ready(function() {
     }
   });
   $(".scroll-to-top").click(function() {
-    $('html,body').animate({scrollTop: 0},700);
+    $('html,body').animate({scrollTop: 0},2000);
     if($(".menu-listing > li > a").parent().hasClass("active")) {
       $(".menu-listing > li > a").parent().removeClass("active");
       $(".menu-listing > li:nth-child(1) > a").parent().addClass("active");
