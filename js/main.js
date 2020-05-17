@@ -1,17 +1,12 @@
 $(document).ready(function() {
-
 	// Navigationbar Menu
-
 	$(".hamburger-menu").click(function() {
 	  $(".navbar-menu").toggleClass("active");
 	});
-
 	$(".menu-listing > li > a").click(function() {
 		$(".navbar-menu").removeClass("active");
 	});
-
 	// Smooth Animation On Click of Navigationbar Menu
-  
   $(".menu-listing > li > a, .footer-menu > li > a").on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();
@@ -22,30 +17,24 @@ $(document).ready(function() {
       }, 1500);
     }
   });
-
   // On click of Navigationbar active class add and remove
-
 	$(".menu-listing > li > a").click(function() {
 		$(".menu-listing > li > a").parent().removeClass("active");
 		$(this).parent().addClass("active");
 	});
-
 	$(".footer-menu > li > a").click(function() {
 		var realMenu = $(this).attr("id");
 		var realFixedMenu = realMenu + "h";
 		$("#" + realFixedMenu).trigger("click");
 	});
-
 	// OnScroll Navbar Fixed
-
 	$(window).scroll(function(){
-	  if ($(window).scrollTop() >= 109) {
+	  if ($(window).scrollTop() >= 119) {
 	    $('.bg-navbar').addClass('fixed');
 	   } else {
 	    $('.bg-navbar').removeClass('fixed');
 	   }
 	});
-	
 	$(window).resize(function() {
 		if($(window).width() > 767) {
 			$(window).scroll(function(){
@@ -65,9 +54,7 @@ $(document).ready(function() {
 			});
 		}
 	});
-
 	// Counter JS
-
 	var a = 0;
 	$(window).scroll(function() {
 		var oTop = $('#counter').offset().top - window.innerHeight;
@@ -94,21 +81,16 @@ $(document).ready(function() {
     	a = 1;
 	  }
 	});
-
 	// DatePicker
-
 	$("#datepicker").datepicker({
 		autoclose: true,
 		todayHighlight: true,
 		format: 'dd/mm/yyyy',
 		pickerPosition: "bottom-left"
 	}); // .datepicker('update', new Date())
-
-	// Scroll To Top On Click JS
-
+	// Scroll To Top JS
   var offset = 200;
   var duration = 500;
-
   $(window).scroll(function() {
     if($(this).scrollTop() > offset) {
       $(".scroll-to-top").fadeIn(700).addClass("visible");
@@ -116,7 +98,6 @@ $(document).ready(function() {
       $(".scroll-to-top").fadeOut(100).removeClass("visible");
     }
   });
-
   $(".scroll-to-top").click(function() {
     $('html,body').animate({scrollTop: 0},700);
     if($(".menu-listing > li > a").parent().hasClass("active")) {
@@ -124,9 +105,7 @@ $(document).ready(function() {
       $(".menu-listing > li:nth-child(1) > a").parent().addClass("active");
     }
   });
-
   // OnScroll Active Class and Remove Class
-
   $('.menu-listing').onePageNav({
     currentClass: 'active',
     changeHash: false,
@@ -135,5 +114,4 @@ $(document).ready(function() {
     filter: '',
     easing: 'swing'
   });
-	
 });
